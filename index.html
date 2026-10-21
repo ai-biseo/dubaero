@@ -684,6 +684,10 @@ a.ti:hover,a.ti:hover small,a.ti:hover small::after,.top .nav a:hover{color:#A84
   .hero .pen-note{position:absolute!important;left:172px;right:12px;top:96px;margin:0!important;font-size:15.5px!important;line-height:1.75!important;text-align:left}
   .hero-text{padding-top:14px!important}
 }
+
+.c-item .copy{color:#1F2F52!important;border-color:#1F2F52!important;background:none!important}
+.c-item:hover .copy{background:#1F2F52!important;color:#fff!important}
+body{padding-bottom:0!important}
 </style>
 
 <header class="top">
@@ -913,8 +917,6 @@ a.ti:hover,a.ti:hover small,a.ti:hover small::after,.top .nav a:hover{color:#A84
           <li>교육 장소 (PC 실습 가능 여부)</li>
           <li>희망 주제 또는 교육 목적</li>
         </ul>
-        <button class="btn point" type="button" data-copy="[강의 문의] 기관명&#10;• 기관명/담당자:&#10;• 교육 대상/인원:&#10;• 희망 일정/시간:&#10;• 교육 장소:&#10;• 희망 주제:">문의 양식 복사하기</button>
-        <p class="hint">복사한 양식을 메일이나 카카오톡에 붙여 넣어 보내주세요.</p>
       </div>
       <div class="c-box">
         <h3>연락처</h3>
@@ -939,7 +941,6 @@ a.ti:hover,a.ti:hover small,a.ti:hover small::after,.top .nav a:hover{color:#A84
   </div>
 </footer>
 
-<a href="#contact" class="mobile-cta">강의 문의하기</a>
 <div class="toast" id="toast" role="status"></div>
 <script>
 document.querySelectorAll('[data-copy]').forEach(function(el){
