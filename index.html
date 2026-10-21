@@ -675,6 +675,15 @@ a.ti:hover{color:#A8432B!important}
 a.ti:hover,a.ti:hover small,a.ti:hover small::after,.top .nav a:hover{color:#A8432B!important}
 /* photo: fade all four edges into page */
 .hero-photo img{-webkit-mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent),linear-gradient(#000 78%,transparent)!important;-webkit-mask-composite:source-in!important;mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent),linear-gradient(#000 78%,transparent)!important;mask-composite:intersect!important}
+
+/* mobile: handwriting beside the photo */
+@media (max-width:640px){
+  .hero .wrap{position:relative}
+  .hero-text,.h-top{position:static!important}
+  .hero-photo{width:150px!important}
+  .hero .pen-note{position:absolute!important;left:172px;right:12px;top:96px;margin:0!important;font-size:15.5px!important;line-height:1.75!important;text-align:left}
+  .hero-text{padding-top:14px!important}
+}
 </style>
 
 <header class="top">
